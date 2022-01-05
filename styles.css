@@ -1,0 +1,20 @@
+#container {
+    display: grid;
+    width: 800px;
+    height: 800px;
+    grid-gap: 0;
+    margin: auto;
+    justify-content: stretch;
+    border: 3px solid black;
+}
+
+.active {
+    background-color: black;
+}
+
+button {
+    display: block;
+    margin: auto;
+    border: solid black;
+    padding: 10px;
+}
